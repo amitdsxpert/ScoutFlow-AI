@@ -1,0 +1,62 @@
+# ScoutFlow AI — Dependency Manifest
+#
+# NOTE: This is a Node.js / Next.js project. The authoritative dependency
+# list lives in package.json and is installed with `npm install`.
+# This file is provided as a human-readable summary only.
+#
+# Install everything with:
+#   npm install
+#
+# Run locally with:
+#   npm run dev          # dev server on http://localhost:3000
+#   npm run build        # production build
+#   npm start            # serve production build
+#   npm run lint         # tsc --noEmit (type check)
+
+# =============================================================================
+# Runtime requirements
+# =============================================================================
+node>=20.0.0
+npm>=10.0.0
+
+# =============================================================================
+# Production dependencies (from package.json -> dependencies)
+# =============================================================================
+next@latest                         # Next.js 16 framework (App Router, Turbopack)
+react@latest                        # React 19
+react-dom@latest                    # React DOM renderer
+lucide-react>=0.475.0               # Icon set used across the UI
+
+# Resume parsing
+pdfjs-dist>=5.6.205                 # PDF text extraction (legacy build for Node)
+mammoth>=1.12.0                     # DOCX text extraction
+
+# Optional database connectors (loaded only if a connector is configured)
+pg>=8.20.0                          # PostgreSQL connector
+mysql2>=3.22.2                      # MySQL connector
+
+# =============================================================================
+# Development dependencies (from package.json -> devDependencies)
+# =============================================================================
+typescript>=5.7.3
+@types/node>=22.10.10
+@types/react>=19.0.8
+@types/react-dom>=19.0.3
+tailwindcss>=3.4.17
+postcss>=8.5.1
+autoprefixer>=10.4.20
+eslint>=9.18.0
+eslint-config-next@latest
+
+# =============================================================================
+# External services (configure in .env — see .env.example)
+# =============================================================================
+# LLM providers (any one is sufficient; chain falls back automatically)
+#   - OpenRouter           https://openrouter.ai
+#   - Google Gemini        https://aistudio.google.com
+#   - Groq                 https://console.groq.com
+#   - Hugging Face         https://huggingface.co
+#
+# Outreach delivery
+#   - Resend (email)       https://resend.com
+#   - Twilio (SMS / WhatsApp)  https://www.twilio.com
