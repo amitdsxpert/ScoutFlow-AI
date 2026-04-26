@@ -1,0 +1,13 @@
+Senior Backend Engineer — GenAI Platform
+
+We are hiring a Senior Backend Engineer to build backend services for our GenAI platform. The ideal candidate has 5+ years of software engineering experience, strong Python, FastAPI, PostgreSQL, Docker, cloud experience, and experience with LLM APIs. Experience with RAG pipelines, vector databases, and distributed systems is preferred. Location: Remote India.
+
+Responsibilities:
+- Design and operate scalable backend services for AI product workflows.
+- Build API layers, async jobs, observability, and integrations with LLM providers.
+- Improve reliability, latency, and developer experience across the platform.
+- Partner with product, data, and ML teams to ship safe GenAI features.
+
+Preferred:
+- Retrieval augmented generation, vector databases, distributed systems, Kubernetes, TypeScript.
+- Experience owning production systems and mentoring engineers.

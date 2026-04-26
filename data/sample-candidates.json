@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Aanya Menon",
+    "email": "aanya.menon@example.com",
+    "phone": "+91 98765 10101",
+    "location": "Bengaluru, India",
+    "currentTitle": "Senior Backend Engineer, GenAI Platform",
+    "currentCompany": "NimbleStack AI",
+    "yearsExperience": 8,
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Kubernetes", "AWS", "LLM APIs", "RAG", "Vector Databases"],
+    "projects": ["Built a multi-tenant RAG orchestration service", "Led LLM gateway reliability work"],
+    "summary": "Backend platform engineer with production GenAI systems and strong cloud operations experience."
+  },
+  {
+    "name": "Rohan Iyer",
+    "email": "rohan.iyer@example.com",
+    "location": "Pune, India",
+    "currentTitle": "Staff Backend Engineer",
+    "currentCompany": "CloudWorks",
+    "yearsExperience": 10,
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "GCP", "LLM APIs", "RAG", "Distributed Systems"],
+    "projects": ["Designed AI document processing backend", "Scaled PostgreSQL-backed APIs"],
+    "summary": "Excellent backend and GenAI match, currently passive."
+  },
+  {
+    "name": "Nisha Kapoor",
+    "email": "nisha.kapoor@example.com",
+    "location": "Delhi NCR, India",
+    "currentTitle": "Lead Backend Engineer",
+    "currentCompany": "FinGrid",
+    "yearsExperience": 9,
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Azure", "LLM APIs", "Microservices"],
+    "projects": ["Introduced AI-assisted underwriting APIs", "Rebuilt risk scoring services"],
+    "summary": "Strong backend leader with practical LLM API exposure."
+  },
+  {
+    "name": "Arjun Rao",
+    "email": "arjun.rao@example.com",
+    "location": "Goa, India",
+    "currentTitle": "Senior Platform Engineer",
+    "currentCompany": "RemoteBase",
+    "yearsExperience": 7,
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS", "Terraform", "RAG", "Vector Databases"],
+    "projects": ["Built remote-first developer platform APIs", "Shipped RAG ingestion pipelines"],
+    "summary": "High-quality remote-first platform engineer with GenAI implementation experience."
+  },
+  {
+    "name": "Aditya Sen",
+    "email": "aditya.sen@example.com",
+    "location": "Bengaluru, India",
+    "currentTitle": "Data Scientist",
+    "currentCompany": "InsightLabs",
+    "yearsExperience": 7,
+    "skills": ["Python", "Machine Learning", "Pandas", "Jupyter", "Prompt Engineering", "LLM APIs"],
+    "projects": ["Built churn models and prompt experiments", "Analyzed AI support quality"],
+    "summary": "AI-adjacent profile, but data science rather than backend platform engineering."
+  }
+]

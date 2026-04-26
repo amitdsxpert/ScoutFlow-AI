@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+dist
+coverage
+*.tsbuildinfo
+.env
+.env*.local
+.DS_Store
+# Outreach delivery store (server-side persistent state)
+data/outreach-messages.json
+data/outreach-messages.json.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
